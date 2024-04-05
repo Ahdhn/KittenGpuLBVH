@@ -1,0 +1,1480 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 2024-04-05 1:48:14 PM.
+      Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.04
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 2024-04-05 1:48:17 PM.
+      Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.24
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 2024-04-05 1:48:18 PM.
+      Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCUDA.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      AddCudaCompileDeps:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) is building "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug".
+        cmd.exe /C "C:\\Users\\mahmoua\\AppData\\Local\\Temp\\tmp68d5a9af1b234aeab8c1589a6027d4ce.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc142.pdb" -o E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc142.pdb" -o E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../lib;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\tools\\miniconda3\\condabin;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp;C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\intel64\\vc_mt\\;C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\;C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\f3d\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\MATLAB\\R2023a\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.2.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Go\\bin;C:\\ProgramData\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\mahmoua\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp;C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\intel64\\vc_mt\\;C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\;C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\f3d\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\MATLAB\\R2023a\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.2.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Go\\bin;C:\\ProgramData\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\mahmoua\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64;;C:\\tools\\miniconda3\\condabin; C:\\Users\\mahmoua\\AppData\\Local\\Programs\\Microsoft VS Code\\bin; C:\\Users\\mahmoua\\AppData\\Local\\GitHubDesktop\\bin; ;C:\\Users\\mahmoua\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\mahmoua\\AppData\\Local\\GitHubDesktop\\bin;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ resource file C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc142.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=2 -D__CUDACC_VER_BUILD__=91 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=2 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-8.res" > "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-8.res
+        #$ cudafe++ --microsoft_version=1928 --msvc_target_version=1928 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29910/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ resource file C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc142.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=2 -D__CUDACC_VER_BUILD__=91 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=2 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-10.res" > "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-10.res
+        #$ cicc --microsoft_version=1928 --msvc_target_version=1928 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29910/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_000118b0_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/mahmoua/AppData/Local/Temp/tmpxft_000118b0_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ resource file C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc142.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"   -Zi "C:\\Users\\mahmoua\\AppData\\Local\\Temp\\tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]
+        #$ cl.exe @"C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-12.res" -Fo"E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_000118b0_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_000118b0_00000000-12.res
+      Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (CudaBuildCore target(s)).
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj
+           Creating library .\\CompilerIdCUDA.lib and object .\\CompilerIdCUDA.exp
+      LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+        CompilerIdCUDA.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate".
+      Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (default targets).
+      
+      Build succeeded.
+      
+      "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (default target) (1) ->
+      (Link target) -> 
+        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+      
+          1 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:05.63
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-w8b5sk"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-w8b5sk"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-w8b5sk'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_51e4d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:48:24 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8b5sk\\cmTC_51e4d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_51e4d.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8b5sk\\Debug\\".
+          Creating directory "cmTC_51e4d.dir\\Debug\\cmTC_51e4d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_51e4d.dir\\Debug\\cmTC_51e4d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_51e4d.dir\\Debug\\\\" /Fd"cmTC_51e4d.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_51e4d.dir\\Debug\\\\" /Fd"cmTC_51e4d.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8b5sk\\Debug\\cmTC_51e4d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-w8b5sk/Debug/cmTC_51e4d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-w8b5sk/Debug/cmTC_51e4d.lib" /MACHINE:X64  /machine:x64 cmTC_51e4d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_51e4d.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8b5sk\\Debug\\cmTC_51e4d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_51e4d.dir\\Debug\\cmTC_51e4d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_51e4d.dir\\Debug\\cmTC_51e4d.tlog\\cmTC_51e4d.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8b5sk\\cmTC_51e4d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-u2uqy7"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-u2uqy7"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-u2uqy7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_30c2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:48:26 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2uqy7\\cmTC_30c2e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_30c2e.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2uqy7\\Debug\\".
+          Creating directory "cmTC_30c2e.dir\\Debug\\cmTC_30c2e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_30c2e.dir\\Debug\\cmTC_30c2e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30c2e.dir\\Debug\\\\" /Fd"cmTC_30c2e.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30c2e.dir\\Debug\\\\" /Fd"cmTC_30c2e.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2uqy7\\Debug\\cmTC_30c2e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-u2uqy7/Debug/cmTC_30c2e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-u2uqy7/Debug/cmTC_30c2e.lib" /MACHINE:X64  /machine:x64 cmTC_30c2e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_30c2e.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2uqy7\\Debug\\cmTC_30c2e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_30c2e.dir\\Debug\\cmTC_30c2e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_30c2e.dir\\Debug\\cmTC_30c2e.tlog\\cmTC_30c2e.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2uqy7\\cmTC_30c2e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_269e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:48:28 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_269e5.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\Debug\\".
+          Creating directory "cmTC_269e5.dir\\Debug\\cmTC_269e5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_269e5.dir\\Debug\\cmTC_269e5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        AddCudaCompileDeps:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (1) is building "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+        CudaBuildCore:
+          Compiling CUDA source file C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\mahmoua\\AppData\\Local\\Temp\\tmp03b4a5f62eb9438d979db3d72e9be355.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_269e5.dir\\Debug\\vc142.pdb" -o cmTC_269e5.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_269e5.dir\\Debug\\vc142.pdb" -o cmTC_269e5.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+          tmpxft_000116d4_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (CudaBuildCore target(s)).
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\Debug\\cmTC_269e5.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a/Debug/cmTC_269e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a/Debug/cmTC_269e5.lib" /MACHINE:X64  /machine:x64 -v cmTC_269e5.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: unrecognized option '/v'; ignored [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+             Creating library E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a/Debug/cmTC_269e5.lib and object E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a/Debug/cmTC_269e5.exp
+        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+          cmTC_269e5.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\Debug\\cmTC_269e5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_269e5.dir\\Debug\\cmTC_269e5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_269e5.dir\\Debug\\cmTC_269e5.tlog\\cmTC_269e5.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (default target) (1) ->
+        "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (CudaBuildCore target) (1:2) ->
+        (CudaBuildCore target) -> 
+          cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+        
+        
+        "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4044: unrecognized option '/v'; ignored [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+          LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]
+        
+            5 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:04.12
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_269e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n]
+        ignore line: [Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework]
+        ignore line: [Copyright (C) Microsoft Corporation. All rights reserved.]
+        ignore line: []
+        ignore line: [Build started 2024-04-05 1:48:28 PM.]
+        ignore line: [Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" on node 1 (default targets).]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  Creating directory "cmTC_269e5.dir\\Debug\\".]
+        ignore line: [  Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\Debug\\".]
+        ignore line: [  Creating directory "cmTC_269e5.dir\\Debug\\cmTC_269e5.tlog\\".]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  Creating "cmTC_269e5.dir\\Debug\\cmTC_269e5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (1) is building "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\mahmoua\\AppData\\Local\\Temp\\tmp03b4a5f62eb9438d979db3d72e9be355.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_269e5.dir\\Debug\\vc142.pdb" -o cmTC_269e5.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_269e5.dir\\Debug\\vc142.pdb" -o cmTC_269e5.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: [  tmpxft_000116d4_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+        ignore line: [Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (CudaBuildCore target(s)).]
+        ignore line: [Link:]
+        ignore line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\Debug\\cmTC_269e5.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a/Debug/cmTC_269e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a/Debug/cmTC_269e5.lib" /MACHINE:X64  /machine:x64 -v cmTC_269e5.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: unrecognized option '/v']
+        ignore line: [ ignored [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: [     Creating library E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a/Debug/cmTC_269e5.lib and object E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-xits2a/Debug/cmTC_269e5.exp]
+        ignore line: [LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs]
+        ignore line: [ use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: [  cmTC_269e5.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\Debug\\cmTC_269e5.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  Deleting file "cmTC_269e5.dir\\Debug\\cmTC_269e5.tlog\\unsuccessfulbuild".]
+        ignore line: [  Touching "cmTC_269e5.dir\\Debug\\cmTC_269e5.tlog\\cmTC_269e5.lastbuildstate".]
+        ignore line: [Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (default targets).]
+        ignore line: []
+        ignore line: [Build succeeded.]
+        ignore line: []
+        ignore line: ["E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (default target) (1) ->]
+        ignore line: ["E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (CudaBuildCore target) (1:2) ->]
+        ignore line: [(CudaBuildCore target) -> ]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: ["E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj" (default target) (1) ->]
+        ignore line: [(Link target) -> ]
+        ignore line: [  LINK : warning LNK4044: unrecognized option '/v']
+        ignore line: [ ignored [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: [  LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs]
+        ignore line: [ use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xits2a\\cmTC_269e5.vcxproj]]
+        ignore line: []
+        ignore line: [    5 Warning(s)]
+        ignore line: [    0 Error(s)]
+        ignore line: []
+        ignore line: [Time Elapsed 00:00:04.12]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:54 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-qoqbbv"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-qoqbbv"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "86"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-qoqbbv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_22321.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:48:44 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qoqbbv\\cmTC_22321.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_22321.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qoqbbv\\Debug\\".
+          Creating directory "cmTC_22321.dir\\Debug\\cmTC_22321.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_22321.dir\\Debug\\cmTC_22321.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_22321.dir\\Debug\\\\" /Fd"cmTC_22321.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qoqbbv\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPTryFlag.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_22321.dir\\Debug\\\\" /Fd"cmTC_22321.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qoqbbv\\OpenMPTryFlag.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qoqbbv\\Debug\\cmTC_22321.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-qoqbbv/Debug/cmTC_22321.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-qoqbbv/Debug/cmTC_22321.lib" /MACHINE:X64  /machine:x64 cmTC_22321.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_22321.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qoqbbv\\Debug\\cmTC_22321.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_22321.dir\\Debug\\cmTC_22321.tlog\\unsuccessfulbuild".
+          Touching "cmTC_22321.dir\\Debug\\cmTC_22321.tlog\\cmTC_22321.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qoqbbv\\cmTC_22321.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:54 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2nio9g"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2nio9g"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "86"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2nio9g'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_4ffc6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:48:45 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2nio9g\\cmTC_4ffc6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4ffc6.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2nio9g\\Debug\\".
+          Creating directory "cmTC_4ffc6.dir\\Debug\\cmTC_4ffc6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4ffc6.dir\\Debug\\cmTC_4ffc6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_4ffc6.dir\\Debug\\\\" /Fd"cmTC_4ffc6.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2nio9g\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPTryFlag.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_4ffc6.dir\\Debug\\\\" /Fd"cmTC_4ffc6.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2nio9g\\OpenMPTryFlag.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2nio9g\\Debug\\cmTC_4ffc6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2nio9g/Debug/cmTC_4ffc6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2nio9g/Debug/cmTC_4ffc6.lib" /MACHINE:X64  /machine:x64 cmTC_4ffc6.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_4ffc6.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2nio9g\\Debug\\cmTC_4ffc6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4ffc6.dir\\Debug\\cmTC_4ffc6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4ffc6.dir\\Debug\\cmTC_4ffc6.tlog\\cmTC_4ffc6.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2nio9g\\cmTC_4ffc6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:559 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:54 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-7o1i7e"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-7o1i7e"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "86"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-7o1i7e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_31fd7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:48:47 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o1i7e\\cmTC_31fd7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_31fd7.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o1i7e\\Debug\\".
+          Creating directory "cmTC_31fd7.dir\\Debug\\cmTC_31fd7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_31fd7.dir\\Debug\\cmTC_31fd7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_31fd7.dir\\Debug\\\\" /Fd"cmTC_31fd7.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o1i7e\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPCheckVersion.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_31fd7.dir\\Debug\\\\" /Fd"cmTC_31fd7.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o1i7e\\OpenMPCheckVersion.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o1i7e\\Debug\\cmTC_31fd7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-7o1i7e/Debug/cmTC_31fd7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-7o1i7e/Debug/cmTC_31fd7.lib" /MACHINE:X64  /machine:x64 cmTC_31fd7.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_31fd7.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o1i7e\\Debug\\cmTC_31fd7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_31fd7.dir\\Debug\\cmTC_31fd7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_31fd7.dir\\Debug\\cmTC_31fd7.tlog\\cmTC_31fd7.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o1i7e\\cmTC_31fd7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:559 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:54 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-ouiuku"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-ouiuku"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "86"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-ouiuku'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_63428.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:48:49 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouiuku\\cmTC_63428.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_63428.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouiuku\\Debug\\".
+          Creating directory "cmTC_63428.dir\\Debug\\cmTC_63428.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_63428.dir\\Debug\\cmTC_63428.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_63428.dir\\Debug\\\\" /Fd"cmTC_63428.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouiuku\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPCheckVersion.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_63428.dir\\Debug\\\\" /Fd"cmTC_63428.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouiuku\\OpenMPCheckVersion.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouiuku\\Debug\\cmTC_63428.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-ouiuku/Debug/cmTC_63428.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-ouiuku/Debug/cmTC_63428.lib" /MACHINE:X64  /machine:x64 cmTC_63428.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_63428.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouiuku\\Debug\\cmTC_63428.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_63428.dir\\Debug\\cmTC_63428.tlog\\unsuccessfulbuild".
+          Touching "cmTC_63428.dir\\Debug\\cmTC_63428.tlog\\cmTC_63428.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ouiuku\\cmTC_63428.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.28
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 2024-04-05 1:53:35 PM.
+      Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.64
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 2024-04-05 1:53:38 PM.
+      Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.33
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 2024-04-05 1:53:39 PM.
+      Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCUDA.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      AddCudaCompileDeps:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) is building "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug".
+        cmd.exe /C "C:\\Users\\mahmoua\\AppData\\Local\\Temp\\tmpb5bbb768ef804fadb90fe138900b6313.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc142.pdb" -o E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc142.pdb" -o E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../lib;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.7.2 Tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\tools;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\tools\\miniconda3\\condabin;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp;C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\intel64\\vc_mt\\;C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\;C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\f3d\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\MATLAB\\R2023a\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.2.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Go\\bin;C:\\ProgramData\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\mahmoua\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\libnvvp;C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\intel64\\vc_mt\\;C:\\Program Files (x86)\\Intel\\oneAPI\\tbb\\latest\\redist\\ia32\\vc_mt\\;C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\redist\\ia32_win\\compiler;C:\\Program Files\\ImageMagick-7.1.0-Q16-HDRI;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\f3d\\bin;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\MATLAB\\R2023a\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.2.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Go\\bin;C:\\ProgramData\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\mahmoua\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64;;C:\\tools\\miniconda3\\condabin; C:\\Users\\mahmoua\\AppData\\Local\\Programs\\Microsoft VS Code\\bin; C:\\Users\\mahmoua\\AppData\\Local\\GitHubDesktop\\bin; ;C:\\Users\\mahmoua\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\mahmoua\\AppData\\Local\\GitHubDesktop\\bin;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ resource file C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc142.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=2 -D__CUDACC_VER_BUILD__=91 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=2 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-8.res" > "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-8.res
+        #$ cudafe++ --microsoft_version=1928 --msvc_target_version=1928 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29910/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ resource file C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc142.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=2 -D__CUDACC_VER_BUILD__=91 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=2 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-10.res" > "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-10.res
+        #$ cicc --microsoft_version=1928 --msvc_target_version=1928 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29910/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00003fbc_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/mahmoua/AppData/Local/Temp/tmpxft_00003fbc_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ resource file C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc142.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"   -Zi "C:\\Users\\mahmoua\\AppData\\Local\\Temp\\tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]
+        #$ cl.exe @"C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-12.res" -Fo"E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_00003fbc_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\mahmoua\\AppData\\Local\\Temp/tmpxft_00003fbc_00000000-12.res
+      Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (CudaBuildCore target(s)).
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj
+           Creating library .\\CompilerIdCUDA.lib and object .\\CompilerIdCUDA.exp
+      LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+        CompilerIdCUDA.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate".
+      Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (default targets).
+      
+      Build succeeded.
+      
+      "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (default target) (1) ->
+      (Link target) -> 
+        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+      
+          1 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:04.22
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        E:/Github/KittenGpuLBVH/build/CMakeFiles/3.27.9/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f8wjqf"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f8wjqf"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f8wjqf'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_4016b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:53:44 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8wjqf\\cmTC_4016b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4016b.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8wjqf\\Debug\\".
+          Creating directory "cmTC_4016b.dir\\Debug\\cmTC_4016b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4016b.dir\\Debug\\cmTC_4016b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4016b.dir\\Debug\\\\" /Fd"cmTC_4016b.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4016b.dir\\Debug\\\\" /Fd"cmTC_4016b.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8wjqf\\Debug\\cmTC_4016b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f8wjqf/Debug/cmTC_4016b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f8wjqf/Debug/cmTC_4016b.lib" /MACHINE:X64  /machine:x64 cmTC_4016b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4016b.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8wjqf\\Debug\\cmTC_4016b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4016b.dir\\Debug\\cmTC_4016b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4016b.dir\\Debug\\cmTC_4016b.tlog\\cmTC_4016b.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8wjqf\\cmTC_4016b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f6atq3"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f6atq3"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f6atq3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_c1927.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:53:46 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6atq3\\cmTC_c1927.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c1927.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6atq3\\Debug\\".
+          Creating directory "cmTC_c1927.dir\\Debug\\cmTC_c1927.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c1927.dir\\Debug\\cmTC_c1927.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1927.dir\\Debug\\\\" /Fd"cmTC_c1927.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1927.dir\\Debug\\\\" /Fd"cmTC_c1927.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6atq3\\Debug\\cmTC_c1927.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f6atq3/Debug/cmTC_c1927.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-f6atq3/Debug/cmTC_c1927.lib" /MACHINE:X64  /machine:x64 cmTC_c1927.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c1927.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6atq3\\Debug\\cmTC_c1927.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c1927.dir\\Debug\\cmTC_c1927.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c1927.dir\\Debug\\cmTC_c1927.tlog\\cmTC_c1927.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f6atq3\\cmTC_c1927.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_673bc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:53:47 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_673bc.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\Debug\\".
+          Creating directory "cmTC_673bc.dir\\Debug\\cmTC_673bc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_673bc.dir\\Debug\\cmTC_673bc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        AddCudaCompileDeps:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (1) is building "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+        CudaBuildCore:
+          Compiling CUDA source file C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\mahmoua\\AppData\\Local\\Temp\\tmpbe5e167a60054aa29ee62a051b3cc088.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_673bc.dir\\Debug\\vc142.pdb" -o cmTC_673bc.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_673bc.dir\\Debug\\vc142.pdb" -o cmTC_673bc.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+          tmpxft_0000cc54_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (CudaBuildCore target(s)).
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\Debug\\cmTC_673bc.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y/Debug/cmTC_673bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y/Debug/cmTC_673bc.lib" /MACHINE:X64  /machine:x64 -v cmTC_673bc.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: unrecognized option '/v'; ignored [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+             Creating library E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y/Debug/cmTC_673bc.lib and object E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y/Debug/cmTC_673bc.exp
+        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+          cmTC_673bc.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\Debug\\cmTC_673bc.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_673bc.dir\\Debug\\cmTC_673bc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_673bc.dir\\Debug\\cmTC_673bc.tlog\\cmTC_673bc.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (default target) (1) ->
+        "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (CudaBuildCore target) (1:2) ->
+        (CudaBuildCore target) -> 
+          cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+        
+        
+        "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4044: unrecognized option '/v'; ignored [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+          LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]
+        
+            5 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:04.17
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_673bc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n]
+        ignore line: [Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework]
+        ignore line: [Copyright (C) Microsoft Corporation. All rights reserved.]
+        ignore line: []
+        ignore line: [Build started 2024-04-05 1:53:47 PM.]
+        ignore line: [Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" on node 1 (default targets).]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  Creating directory "cmTC_673bc.dir\\Debug\\".]
+        ignore line: [  Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\Debug\\".]
+        ignore line: [  Creating directory "cmTC_673bc.dir\\Debug\\cmTC_673bc.tlog\\".]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  Creating "cmTC_673bc.dir\\Debug\\cmTC_673bc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=2 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (1) is building "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\mahmoua\\AppData\\Local\\Temp\\tmpbe5e167a60054aa29ee62a051b3cc088.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_673bc.dir\\Debug\\vc142.pdb" -o cmTC_673bc.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_673bc.dir\\Debug\\vc142.pdb" -o cmTC_673bc.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: [  tmpxft_0000cc54_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+        ignore line: [Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (CudaBuildCore target(s)).]
+        ignore line: [Link:]
+        ignore line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\Debug\\cmTC_673bc.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.2\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y/Debug/cmTC_673bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y/Debug/cmTC_673bc.lib" /MACHINE:X64  /machine:x64 -v cmTC_673bc.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: unrecognized option '/v']
+        ignore line: [ ignored [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: [     Creating library E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y/Debug/cmTC_673bc.lib and object E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-n2al9y/Debug/cmTC_673bc.exp]
+        ignore line: [LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs]
+        ignore line: [ use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: [  cmTC_673bc.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\Debug\\cmTC_673bc.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  Deleting file "cmTC_673bc.dir\\Debug\\cmTC_673bc.tlog\\unsuccessfulbuild".]
+        ignore line: [  Touching "cmTC_673bc.dir\\Debug\\cmTC_673bc.tlog\\cmTC_673bc.lastbuildstate".]
+        ignore line: [Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (default targets).]
+        ignore line: []
+        ignore line: [Build succeeded.]
+        ignore line: []
+        ignore line: ["E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (default target) (1) ->]
+        ignore line: ["E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (CudaBuildCore target) (1:2) ->]
+        ignore line: [(CudaBuildCore target) -> ]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: ["E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj" (default target) (1) ->]
+        ignore line: [(Link target) -> ]
+        ignore line: [  LINK : warning LNK4044: unrecognized option '/v']
+        ignore line: [ ignored [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: [  LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs]
+        ignore line: [ use /NODEFAULTLIB:library [E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2al9y\\cmTC_673bc.vcxproj]]
+        ignore line: []
+        ignore line: [    5 Warning(s)]
+        ignore line: [    0 Error(s)]
+        ignore line: []
+        ignore line: [Time Elapsed 00:00:04.17]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:54 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-dgiilt"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-dgiilt"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "86"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-dgiilt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_584dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:54:02 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgiilt\\cmTC_584dc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_584dc.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgiilt\\Debug\\".
+          Creating directory "cmTC_584dc.dir\\Debug\\cmTC_584dc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_584dc.dir\\Debug\\cmTC_584dc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_584dc.dir\\Debug\\\\" /Fd"cmTC_584dc.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgiilt\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPTryFlag.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_584dc.dir\\Debug\\\\" /Fd"cmTC_584dc.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgiilt\\OpenMPTryFlag.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgiilt\\Debug\\cmTC_584dc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-dgiilt/Debug/cmTC_584dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-dgiilt/Debug/cmTC_584dc.lib" /MACHINE:X64  /machine:x64 cmTC_584dc.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_584dc.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgiilt\\Debug\\cmTC_584dc.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_584dc.dir\\Debug\\cmTC_584dc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_584dc.dir\\Debug\\cmTC_584dc.tlog\\cmTC_584dc.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgiilt\\cmTC_584dc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:54 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-i11vm6"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-i11vm6"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "86"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-i11vm6'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_539ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:54:04 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i11vm6\\cmTC_539ee.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_539ee.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i11vm6\\Debug\\".
+          Creating directory "cmTC_539ee.dir\\Debug\\cmTC_539ee.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_539ee.dir\\Debug\\cmTC_539ee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_539ee.dir\\Debug\\\\" /Fd"cmTC_539ee.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i11vm6\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPTryFlag.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_539ee.dir\\Debug\\\\" /Fd"cmTC_539ee.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i11vm6\\OpenMPTryFlag.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i11vm6\\Debug\\cmTC_539ee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-i11vm6/Debug/cmTC_539ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-i11vm6/Debug/cmTC_539ee.lib" /MACHINE:X64  /machine:x64 cmTC_539ee.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_539ee.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i11vm6\\Debug\\cmTC_539ee.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_539ee.dir\\Debug\\cmTC_539ee.tlog\\unsuccessfulbuild".
+          Touching "cmTC_539ee.dir\\Debug\\cmTC_539ee.tlog\\cmTC_539ee.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i11vm6\\cmTC_539ee.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:559 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:54 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2rl1me"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2rl1me"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "86"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2rl1me'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_d6fc9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:54:06 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rl1me\\cmTC_d6fc9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d6fc9.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rl1me\\Debug\\".
+          Creating directory "cmTC_d6fc9.dir\\Debug\\cmTC_d6fc9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d6fc9.dir\\Debug\\cmTC_d6fc9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_d6fc9.dir\\Debug\\\\" /Fd"cmTC_d6fc9.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rl1me\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPCheckVersion.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_d6fc9.dir\\Debug\\\\" /Fd"cmTC_d6fc9.dir\\Debug\\vc142.pdb" /Gd /TC /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rl1me\\OpenMPCheckVersion.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rl1me\\Debug\\cmTC_d6fc9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2rl1me/Debug/cmTC_d6fc9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-2rl1me/Debug/cmTC_d6fc9.lib" /MACHINE:X64  /machine:x64 cmTC_d6fc9.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_d6fc9.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rl1me\\Debug\\cmTC_d6fc9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d6fc9.dir\\Debug\\cmTC_d6fc9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d6fc9.dir\\Debug\\cmTC_d6fc9.tlog\\cmTC_d6fc9.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rl1me\\cmTC_d6fc9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:559 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:54 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-nx9blb"
+      binary: "E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-nx9blb"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "86"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-nx9blb'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_1ebcb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 2024-04-05 1:54:08 PM.
+        Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx9blb\\cmTC_1ebcb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1ebcb.dir\\Debug\\".
+          Creating directory "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx9blb\\Debug\\".
+          Creating directory "cmTC_1ebcb.dir\\Debug\\cmTC_1ebcb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1ebcb.dir\\Debug\\cmTC_1ebcb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_1ebcb.dir\\Debug\\\\" /Fd"cmTC_1ebcb.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx9blb\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPCheckVersion.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_1ebcb.dir\\Debug\\\\" /Fd"cmTC_1ebcb.dir\\Debug\\vc142.pdb" /Gd /TP /errorReport:queue "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx9blb\\OpenMPCheckVersion.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx9blb\\Debug\\cmTC_1ebcb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-nx9blb/Debug/cmTC_1ebcb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Github/KittenGpuLBVH/build/CMakeFiles/CMakeScratch/TryCompile-nx9blb/Debug/cmTC_1ebcb.lib" /MACHINE:X64  /machine:x64 cmTC_1ebcb.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_1ebcb.vcxproj -> E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx9blb\\Debug\\cmTC_1ebcb.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1ebcb.dir\\Debug\\cmTC_1ebcb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1ebcb.dir\\Debug\\cmTC_1ebcb.tlog\\cmTC_1ebcb.lastbuildstate".
+        Done Building Project "E:\\Github\\KittenGpuLBVH\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nx9blb\\cmTC_1ebcb.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 0
+...

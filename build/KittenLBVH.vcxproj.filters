@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="E:\Github\KittenGpuLBVH\include\KittenLBVH\Bound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Github\KittenGpuLBVH\include\KittenLBVH\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\include\KittenLBVH\lbvh.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Github\KittenGpuLBVH\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Github\KittenGpuLBVH\include\KittenLBVH\lbvh.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B56FDBFD-DDB8-3A4B-B8F0-27F0D1AB0021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29871E70-9098-352C-8465-70F0144BC840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

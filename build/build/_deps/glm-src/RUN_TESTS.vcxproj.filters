@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Github\KittenGpuLBVH\build\CMakeFiles\e704572afd1a92f59247a9f85628dfa3\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4335653F-5D8A-315D-8610-2ACF59EE0622}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

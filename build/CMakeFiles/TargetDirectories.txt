@@ -1,0 +1,9 @@
+E:/Github/KittenGpuLBVH/build/CMakeFiles/KittenLBVH.dir
+E:/Github/KittenGpuLBVH/build/CMakeFiles/TestKittenLBVH.dir
+E:/Github/KittenGpuLBVH/build/CMakeFiles/RUN_TESTS.dir
+E:/Github/KittenGpuLBVH/build/CMakeFiles/ALL_BUILD.dir
+E:/Github/KittenGpuLBVH/build/CMakeFiles/ZERO_CHECK.dir
+E:/Github/KittenGpuLBVH/build/build/_deps/glm-src/CMakeFiles/RUN_TESTS.dir
+E:/Github/KittenGpuLBVH/build/build/_deps/glm-src/CMakeFiles/ALL_BUILD.dir
+E:/Github/KittenGpuLBVH/build/build/_deps/glm-src/glm/CMakeFiles/glm.dir
+E:/Github/KittenGpuLBVH/build/build/_deps/glm-src/glm/CMakeFiles/RUN_TESTS.dir

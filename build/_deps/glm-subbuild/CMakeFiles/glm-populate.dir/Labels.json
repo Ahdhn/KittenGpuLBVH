@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/9a26222bac9f86a150fcf0fb7c61b27b/glm-populate.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/ee92f077c8673df47fcec7cce1b9fe0b/glm-populate-complete.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/51a726e02d824e7f0059cdc5f916928b/glm-populate-build.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/51a726e02d824e7f0059cdc5f916928b/glm-populate-configure.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/51a726e02d824e7f0059cdc5f916928b/glm-populate-download.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/51a726e02d824e7f0059cdc5f916928b/glm-populate-install.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/51a726e02d824e7f0059cdc5f916928b/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/51a726e02d824e7f0059cdc5f916928b/glm-populate-patch.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/51a726e02d824e7f0059cdc5f916928b/glm-populate-test.rule"
+		},
+		{
+			"file" : "E:/Github/KittenGpuLBVH/build/_deps/glm-subbuild/CMakeFiles/51a726e02d824e7f0059cdc5f916928b/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}
